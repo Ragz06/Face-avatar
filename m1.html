@@ -1,0 +1,217 @@
+<head>
+  <title>Face-avatar</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.dropbtn {
+  background-color: #3b5998;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body style="background-color:#E9EBEE">
+
+
+  <!-- nav -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Face-Avatar</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+		<div class="dropdown">
+			<!-- notification -->	
+				<button onclick="myFunction()" class="dropbtn"> <i class="fa fa-caret-down fa-lg"style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;</i></button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="login.html">Log Out</a>
+					<a href="#about">Manage Pages</a>
+					<a href="#contact">Your groups</a>
+					<a href="#contact">Preferences</a>
+				</div>
+			</div>
+        <li><a href="m1.html">Home</a></li>	
+		<li><a href=" chat.html"><i class="fa fa-comment fa fa-lg"></i></a></li>	
+		<li><a href=" home.html">ragaavi</a></li>
+    </div>
+      </ul>
+
+  </nav>
+  <!-- ./nav -->
+<div class="container">
+<!-- container -->
+  <div class="row">
+   <!-- row -->
+    <div class="col-md-2">
+	<!-- right side -->
+     <div class="panel-heading"><img src="img/dp.jpeg" style="width:30px;height:30px;border-radius:50%;" <h1>&nbsp;&nbsp;&nbsp;Ragaavi</h1></div>
+      <p><i class="fa fa-picture-o fa-lg"style="color: #3b5998;"><a href="#post"></i>&nbsp;&nbsp;NEWS FEED</a></p>
+      <p><i class="fa fa-comments fa-lg"style="color: #3b5998;"></i><a href="chat.html">&nbsp;&nbsp;MESSENGER</a></p>
+	  <p><i class="fa fa-window-restore fa-lg"style="color: #3b5998;"></i>&nbsp;&nbsp;WATCH</p>
+      <H6 style="color:grey"><b> explore </b></h6> 
+		<p><i class="fa fa-flag fa-lg"style="color: #3b5998;"></i>&nbsp;&nbsp;PAGES</p>
+		<p><i class="fa fa-group fa-lg"style="color:#3b5998;">&nbsp;&nbsp;</i>GROUPS</p>
+		<p><i class="fa fa-calendar-check-o fa-lg"style="color:#3b5998;">&nbsp;&nbsp;</i>EVENTS</p>
+		<p><i class="fa fa-gamepad fa-lg"style="color:#3b5998;">&nbsp;&nbsp;</i>GAMES</p>  
+<!-- /right side -->
+  </div>
+     <div class="col-md-5">
+	 <!-- center -->
+       <br>
+       <div class="panel panel-default">
+		  <div class="panel-heading"><b>Create post</b></div>
+		  <div class="panel-body">
+			<div class="fake-input">
+				<img src="img/dp.jpeg" style="width:25px;border-radius:50%;" <p>ragaavi</p>
+				<textarea placeholder="What's in your mind"style="width:440px;"></textarea>
+			<div class="row">
+				<div class="column">
+					<img src="img/my_avatar.png"  style="width:100px;height:110px;">
+				</div>
+				<div class="column">
+					<img src="img/post5.jpg"  style="width:120px;height:110px">
+				</div>
+			</div>
+		</div>
+           
+		  </div>
+			<div class="panel-footer"><i class="fa fa-picture-o fa-lg"style="color: #3b5998;"></i>Photo/video &nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-tag fa-lg"style="color: #3b5998;"></i>Tag friends&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-star fa-lg"style="color: #3b5998;"></i>Feeling activity
+			</div>
+		</div>
+		<!-- /center -->
+	   </div>
+	   
+	<div class="col-md-3">
+	<!-- frnds -->
+       <h3>Online</h3>        
+       <div class="panel panel-default">
+		  <div class="panel-body">			
+				<h4>FRIENDS </h4>
+				<Ol>
+                <a href="#">Peter</a>
+				<br>
+				<a href="#">Lucifer</a>
+				</ol>
+				<h4>GROUP CONVERSATION</h4>
+				<Ol>		
+				<i class="fa fa-group"><a> Create groups</i></a>
+				</Ol>			
+         </div>
+	  </div>
+    <!-- frnds -->
+	</div>
+  
+  <!-- row -->
+  </div>
+  
+ <div class="col-md-2">
+	 <div class="panel panel-default">
+		  <div class="panel-body">			
+				<h4>YOUR GAMES </h4>
+				<img src="img/ludo.png" style="width:30px;height:30px;border-radius:50%;" <h1>&nbsp;&nbsp;&nbsp;LUDO KING</h1>
+				<img src="img/cr.png" style="width:30px;height:30px;border-radius:50%;" <h1>&nbsp;&nbsp;&nbsp;CRIMINAL CASE</h1>
+				
+						
+         </div>
+	</div>
+	</div>
+    <div class="col-md-5">
+	<!-- post1 -->
+       <br>
+       <div class="panel panel-default"id="post">
+			<div class="panel-heading"><img src="img/dp.jpeg" style="width:30px;height:30px;border-radius:50%;" <p>&nbsp;&nbsp;ragaavi</p></div>
+			<div class="panel-body">  
+				<img src="img/post1.jpg"> 
+			</div> 
+			  <div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-comment-o fa-lg"></i>&nbsp;&nbsp;Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-mail-forward fa-lg"></i>&nbsp;&nbsp;share
+			  </div>
+		 </div>
+	 <!-- /post1 -->
+	 
+	 </div>
+<!-- /container -->
+</div>	
+<div style="padding-left:16px">
+<!-- post2 -->
+<div class="container">
+  <div class="row">
+		<div class="col-md-2"></div>
+	<div class="col-md-5">
+       <br>
+		<div class="panel panel-default">
+			<div class="panel-heading"><img src="img/dp.jpeg" style="width:30px;height:30px;border-radius:50%;" <p>&nbsp;&nbsp;ragaavi</p></div>
+			<div class="panel-body">
+				<img src="img/post3.jpg"> 
+			</div>
+			<div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-comment-o fa-lg"></i>&nbsp;&nbsp;Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-mail-forward fa-lg"></i>&nbsp;&nbsp;share
+			</div>
+		</div>    
+	</div>
+  </div>
+</div>
+<!-- /post2 -->
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>

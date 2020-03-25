@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Face-avatar</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.dropbtn {
+  background-color: #3b5998;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body style="background-color:#E9EBEE">
+
+
+  <!-- nav -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Face-Avatar</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+		<div class="dropdown">
+			<!-- notification -->	
+				<button onclick="myFunction()" class="dropbtn"> <i class="fa fa-caret-down fa-lg"style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;</i></button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="login.html">Log Out</a>
+					<a href="#about">Manage Pages</a>
+					<a href="#contact">Your groups</a>
+					<a href="#contact">Preferences</a>
+				</div>
+			</div>
+        <li><a href="m1.html">Home</a></li>		
+		<li><a href=" home.html"><i class="fa fa-comment fa fa-lg"></i></a></li>	
+		<li><a href=" home.html">ragaavi</a></li>
+    </div>
+      </ul>
+
+  </nav>
+  <!-- ./nav -->
+
+  <!-- main -->
+  <main class="container" >
+    <div class="row">
+	<!-- row -->
+	<div class="col-md-8">
+        <!-- user profile -->
+        <div class="parent1">
+          <div class="parent1">
+            <img src="img/post2.jpg" class="image1" >
+			<img src="img/dp.jpeg" class="image2" style="border-radius:50%;">
+			
+		  </div>
+		</div> 
+		 <!-- user profile -->
+	</div>
+	
+      <div class="col-md-3">
+        <!-- profile brief box1 -->
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h4>RAGAAVI</h4>
+            <p>Half extrovert</p>
+			<p>I love to explore</p>
+          </div>
+		   <!-- box1 -->
+        </div>
+       
+        <div class="panel panel-default">
+          <!-- friend requests box2 -->
+		  <div class="panel-body">
+			
+				<h4>FRIENDS </h4>
+				<ul>
+				<li>
+                <a href="#">Peter</a>
+				<li>
+				<a href="#">Lucifer</a>
+			</DIV>
+				<div class="panel-body">
+				<h4>GROUP CONVERSATION</h4>
+				<ul>		
+				<i class="fa fa-group"><a> Create groups</i></a>
+                </li>
+				</ul>
+				</div>
+				 <!-- ./friend requests box2 -->
+        </div>
+		
+       
+		 <!-- ./profile brief -->
+      </div>
+	  
+      <div class="col-md-8">
+        <!-- post form -->
+        <form method="post" action="">
+          <div class="input-group">
+            <input class="form-control" type="text" name="content" placeholder="Make a post...">
+            <span class="input-group-btn">
+              <button class="btn btn-success" type="submit" name="post">Post</button>
+            </span>
+          </div>
+        </form><hr>
+	    <!-- ./post form -->
+	</div>
+        
+		<div class="col-md-3">
+		<!-- box3 -->
+		  <div class="panel panel-default">
+            <h4><i class="fa fa-globe"> INTEREST</i></h4>
+			<center> <h6>YUVAN FAN<br>
+					G.V. HITS</h6></center>
+		  </div>
+		 <!-- ./box3 -->
+		</div>
+	<div class="col-md-3">
+      <!-- col3  -->
+        <div class="panel panel-default">
+		   <!-- personal  -->
+            <h4><i class="fa fa-globe"> ABOUT</i></h4>
+			<center> RAGAAVI DURAIRAJ <br>
+			<button type="button" onclick="alert('This is a static page')">EDIT BIO</button></CENTER>		  
+		  <div class="panel-body">		
+  			<ul>
+			  <i class="fa fa-home">&nbsp;	Current town or city</i><br>
+			  <i class="fa fa-suitcase">&nbsp;	Workplace</i><br>
+			  <i class="fa fa-university">&nbsp;	School or university</i><br>
+		      <i class="fa fa-map">&nbsp;	Home town</i><br>
+		 	  <i class="fa fa-heart">&nbsp;	Relationship status</i><br>
+		   </ul>
+         </div>
+		 <!-- personal  -->
+		</div>
+		
+	
+	<div class="panel panel-default">
+	<!-- grid  -->
+		<div class="row">
+				<div class="column">
+					<img src="img/post1.jpg"  style="width:100%">
+				</div>
+			<div class="column">
+				<img src="img/my_avatar.png"  style="width:100%">
+			</div>
+				<div class="column">
+					<img src="img/dp.jpeg"  style="width:100%">
+				</div>
+		</div>
+		<div class="row">
+				<div class="column">
+					<img src="img/post3.jpg"  style="width:100%">
+				</div>
+				<div class="column">
+					<img src="img/post4.jpg"  style="width:100%">
+				</div>
+				<div class="column">
+					<img src="img/post5.jpg"  style="width:100%">	
+				</div>
+		</div>
+	<!-- grid  -->
+	</div>
+	<!-- col3  -->
+	</div>
+	
+        
+ <div class="col-md-5">
+ <!-- col5 -->
+   <!-- post1 -->
+  <div class="panel panel-default">
+	<div class="panel-heading"><img src="img/dp.jpeg" style="width:30px;height:30px;border-radius:50%;" <p>&nbsp;&nbsp;ragaavi</p>
+	 </div>
+		<div class="panel-body">
+			<img src="img/post1.jpg"> 
+
+		</div>
+			<div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-comment-o fa-lg"></i>&nbsp;&nbsp;Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-mail-forward fa-lg"></i>&nbsp;&nbsp;share
+			</div>
+			<!-- post1 -->
+   </div> 
+
+  <div class="panel panel-default">
+  <!-- post2 -->
+	<div class="panel-heading"><img src="img/dp.jpeg" style="width:30px;height:30px;border-radius:50%;" <p>&nbsp;&nbsp;ragaavi</p>
+	 </div>
+		<div class="panel-body">
+			<img src="img/post4.jpg"> 
+
+		</div>
+			<div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-comment-o fa-lg"></i>&nbsp;&nbsp;Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-mail-forward fa-lg"></i>&nbsp;&nbsp;share
+			</div>
+			<!-- post2 -->
+   </div>	   
+	   
+	   
+  <div class="panel panel-default"><!-- post3 -->
+	<div class="panel-heading"><img src="img/dp.jpeg" style="width:30px;height:30px;border-radius:50%;" <p>&nbsp;&nbsp;ragaavi</p>
+	 </div>
+		<div class="panel-body">
+			<img src="img/post3.jpg"> 
+
+		</div>
+			<div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-comment-o fa-lg"></i>&nbsp;&nbsp;Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-mail-forward fa-lg"></i>&nbsp;&nbsp;share
+			</div>
+   <!-- post3 -->
+     </div>
+	<!-- col5 -->   
+   </div>
+<!-- row -->
+ </div>
+  
+  </main>
+  <!-- ./main -->
+
+  <!-- footer -->
+  <footer class="container text-center">
+    <ul class="nav nav-pills pull-right">
+      <li>Face-Avatar - Made by RAGAAVI</li>
+    </ul>
+  </footer>
+  <!-- ./footer -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+ 
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
