@@ -160,7 +160,7 @@
 			<div class="panel-body">  
 				<img src="img/post1.jpg"> 
 			</div> 
-			  <div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg" id="like" onclick="val()"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<i class="fa fa-comment-o fa-lg"></i>&nbsp;&nbsp;Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<i class="fa fa-mail-forward fa-lg"></i>&nbsp;&nbsp;share
 			  </div>
@@ -182,7 +182,7 @@
 			<div class="panel-body">
 				<img src="img/post3.jpg"> 
 			</div>
-			<div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<div class="panel-footer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-thumbs-up fa-lg" id="like" onclick="val()"></i>&nbsp;&nbsp;Like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<i class="fa fa-comment-o fa-lg"></i>&nbsp;&nbsp;Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<i class="fa fa-mail-forward fa-lg"></i>&nbsp;&nbsp;share
 			</div>
@@ -211,6 +211,11 @@ window.onclick = function(event) {
       }
     }
   }
+}
+
+function val()
+{
+alert("You,Peter and 10 other  have liked the post;");
 }
 </script>
 </body>
